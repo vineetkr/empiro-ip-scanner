@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Version>1.1.2</Version>
+    <UseWPF>true</UseWPF>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Assets\empiro.ico</ApplicationIcon>
+    <AssemblyName>Empiro-IP-Scanner</AssemblyName>
+    <RootNamespace>Empiro.IpScanner.Wpf</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Empiro.IpScanner.Core\Empiro.IpScanner.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.13.0.5924" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.13.0.5924" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.Gpu.Windows" Version="1.30.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\empiro-mark.png" />
+    <Resource Include="Assets\empiro-wordmark.png" />
+  </ItemGroup>
+</Project>

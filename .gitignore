@@ -1,0 +1,39 @@
+# Build outputs and local tools
+**/bin/
+**/obj/
+dist/
+build/
+output/
+tmp/
+TestResults/
+.dotnet-sdk/
+.build-tools/
+.build-venv/
+.venv/
+__pycache__/
+# IDE and machine-specific files
+.vs/
+.idea/
+*.user
+*.suo
+# Local configuration, credentials, scan data and models
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*.log
+*.onnx
+*.pt
+*.db
+*.db-*
+*.sqlite*
+Empiro-scan.*
+appsettings.local.json
+# Packaged distributions belong in Releases
+*.exe
+*.msi
+*.zip
+*.7z

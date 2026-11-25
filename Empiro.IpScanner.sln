@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empiro.IpScanner.Core", "src\Empiro.IpScanner.Core\Empiro.IpScanner.Core.csproj", "{93FC0B8F-84A5-4789-8AF8-1A0D78C3103D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empiro.IpScanner.Wpf", "src\Empiro.IpScanner.Wpf\Empiro.IpScanner.Wpf.csproj", "{43BF7472-EADD-4FBA-A1E0-846A95A87D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empiro.IpScanner.Tests", "tests\Empiro.IpScanner.Tests\Empiro.IpScanner.Tests.csproj", "{295A0AA7-AFB8-4708-A71B-E15F4348509C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93FC0B8F-84A5-4789-8AF8-1A0D78C3103D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FC0B8F-84A5-4789-8AF8-1A0D78C3103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FC0B8F-84A5-4789-8AF8-1A0D78C3103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FC0B8F-84A5-4789-8AF8-1A0D78C3103D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BF7472-EADD-4FBA-A1E0-846A95A87D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BF7472-EADD-4FBA-A1E0-846A95A87D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BF7472-EADD-4FBA-A1E0-846A95A87D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BF7472-EADD-4FBA-A1E0-846A95A87D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295A0AA7-AFB8-4708-A71B-E15F4348509C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295A0AA7-AFB8-4708-A71B-E15F4348509C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295A0AA7-AFB8-4708-A71B-E15F4348509C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295A0AA7-AFB8-4708-A71B-E15F4348509C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
